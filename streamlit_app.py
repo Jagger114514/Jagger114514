@@ -1,5 +1,5 @@
 import streamlit as st
 
-st.button("Let us go", type="primary")
+st.button("reset", help="click here to restart", type="primary")
 if st.button("Let us go", help="click to show two lines of texts below"):
     st.write('Success!')
